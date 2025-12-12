@@ -1,0 +1,8 @@
+select "a"="ᵃ"
+select "e"="ᵉ"
+select "i"="ᴵ"
+select "o"="ᴼ"
+select "u"="ᵁ"
+select "x"="ˣ"
+select "w"="ʷ"
+select "r"="ʳ"

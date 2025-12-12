@@ -1,0 +1,18 @@
+"a" -eq "ᵃ"
+"e" -eq "ᵉ"
+"i" -eq "ᴵ"
+"o" -eq "ᴼ"
+"u" -eq "ᵁ"
+"x" -eq "ˣ"
+"w" -eq "ʷ"
+"r" -eq "ʳ"
+
+"a" -match "ᵃ"
+"e" -match "ᵉ"
+"i" -match "ᴵ"
+"o" -match "ᴼ"
+"u" -match "ᵁ"
+"x" -match "ˣ"
+"w" -match "ʷ"
+"r" -match "ʳ"
+

