@@ -1,0 +1,8 @@
+TextA   TextB   StdED   CLEED   TCLES
+compare      which  7   7.0 0.000
+compare      export     5   5.0 0.286
+compare      computer   3   3.0 0.625
+compare      coᵐputer   4   3.0 0.625
+compare      ComparE    2   0.0 1.000
+compare      coᵐpÀrᴱ਺   4   0.0 1.000
+compare      ਺਺c਺਺oᵐ਺਺਺pÀrᴱ     10  0.0 1.000
